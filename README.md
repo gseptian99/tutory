@@ -24,6 +24,7 @@ Perangkat Keras
   * Memory : 16 GB DDR4
   * Graphics Card : NVIDIA GeForce GTX 1050
   * Storage : 1 TB HDD & 256 GB SSD
+
 Perangkat Lunak
 
   * Operating System : Windows 10
@@ -31,6 +32,7 @@ Perangkat Lunak
   * Framework : Laravel, CodeIgniter
   * Database : MySQL
   * Server : Apache
+
 Lainnya
 
   * Photoshop
@@ -41,15 +43,19 @@ Lainnya
 <h2>Hasil dan Pembahasan:</h2>
 
 * <h3>Use case diagram</h3>
+  
   ![usecase](https://user-images.githubusercontent.com/66354722/120913503-d0436e80-c6c1-11eb-855b-095775e7c5c2.png)
 
 * <h3>Activity diagram diagram</h3>
+  
   ![flowchart](https://user-images.githubusercontent.com/66354722/120913520-e05b4e00-c6c1-11eb-9936-656003ccb571.png)
  
 * <h3>Class diagram</h3>
+  
   ![class](https://user-images.githubusercontent.com/66354722/120913528-e81af280-c6c1-11eb-892f-2db6b76bace5.png)
  
 * <h3>Entity Relationship Diagram</h3>
+  
   ![erd](https://user-images.githubusercontent.com/66354722/120913538-f23cf100-c6c1-11eb-920a-5c7d6c895959.png)
   
 * <h3>Arsitektur sistem</h3>
@@ -63,15 +69,17 @@ CRUD
 CRUD | Pelajar | Tutor
 ------ | ----------------- | ---------
 Create | Pelajar dapat membuat akun sebagai pelajar | Tutor dapat membuat akun sebagai tutor
-       |                                            | Tutor dapat membuat kelas tutor
+_ | _ | Tutor dapat membuat kelas tutor
 Read   | Pelajar dapat melihat semua kelas yang tersedia yang telah dibuat oleh tutor | Tutor dapat melihat semua kelas yang telah dibuat olehnya
-       | Pelajar dapat melihat semua tutor yang terdaftar                             | 
+_ | Pelajar dapat melihat semua tutor yang terdaftar | _  
 Update | Pelajar dapat mengedit profil nya sendiri | Tutor dapat mengedit profilnya sendiri
-       |                                           | Tutor dapat mengedit kelas yang telah dibuatnya
-Delete |                                           | Tutor dapat menghapus kelas yang telah dibuat
+_ | _ | Tutor dapat mengedit kelas yang telah dibuatnya
+Delete | _ | Tutor dapat menghapus kelas yang telah dibuat
 
 <h2>Hasil Implementasi</h2>
+
 * Screenshot Sistem
+  
   ![ss](https://user-images.githubusercontent.com/66354722/120913550-01bc3a00-c6c2-11eb-9d77-29f2ad832ac5.png)
 
 
