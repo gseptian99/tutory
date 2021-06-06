@@ -17,62 +17,60 @@ Aplikasi yang ingin kami kembangkan adalah aplikasi tutor berbasis web yang dapa
 
 <h2>Spesifikasi Teknis Lingkungan:</h2>
 * Perangkat Keras
-	* Processor : Intel Core I5 8300H CPU @ 2.30Ghz
-	* Memory : 16 GB DDR4
-	* Graphics Card : NVIDIA GeForce GTX 1050
-	* Storage : 1 TB HDD & 256 GB SSD
+  * Processor : Intel Core I5 8300H CPU @ 2.30Ghz
+  * Memory : 16 GB DDR4
+  * Graphics Card : NVIDIA GeForce GTX 1050
+  * Storage : 1 TB HDD & 256 GB SSD
 * Perangkat Lunak
-	* Operating System : Windows 10
-	* Text Editor : Sublime / Visual Studio Code
-	* Framework : Laravel, CodeIgniter
-	* Database : MySQL
-	* Server : Apache
+  * Operating System : Windows 10
+  * Text Editor : Sublime / Visual Studio Code
+  * Framework : Laravel, CodeIgniter
+  * Database : MySQL
+  * Server : Apache
 * Lainnya
-	* Photoshop
-	* Illustrator
-	* Figma
-	* Jquery
+  * Photoshop
+  * Illustrator
+  * Figma
+  * Jquery
 
 <h2>Hasil dan Pembahasan:</h2>
 * <h3>Use case diagram</h3>
-![Use Case Diagram](/images/logo.png)
+  ![Use Case Diagram](D:\idk\Download\usecase.png)
 
 * <h3>Activity diagram diagram</h3>
-
+  ![Activity Diagram](D:\idk\Download\flowchart.png)
  
 * <h3>Class diagram</h3>
-
+  ![Class Diagram](D:\idk\Download\class.png)
  
 * <h3>Entity Relationship Diagram</h3>
-
+  ![Entity Relationship Diagram](D:\idk\Download\erd.png)
+  
 * <h3>Arsitektur sistem</h3>
-	Web Apps tutory pastinya menggunakan teknologi basic dari HTML, CSS, Javascript, jquery dan PHP, untuk mempermudah styling web apps kami menggunakan bantuan BOOTSRAP pada sisi framework untuk frontendnya dan pada sisi backend kami menggunakan bantuan framework CODEIGNITER, 
-Fungsi utama yang dikembangkan
+	Web Apps tutory pastinya menggunakan teknologi basic dari HTML, CSS, Javascript, jquery dan PHP, untuk mempermudah styling web apps kami menggunakan bantuan BOOTSRAP pada sisi framework untuk frontendnya dan pada sisi backend kami menggunakan bantuan framework CODEIGNITER.
+	
+* <h3>Fungsi utama yang dikembangkan</h3>
 	Web Apps-Tutory ini memiliki sebuah fitur utama, dimana tutory membantu para pelajar menemukan tutor atau kelas yang sesuai  serta membantu pelajar mendapatkan pengalaman pembelajaran yang lebih baik.
 	
 * <h3>Fungsi CRUD</h3>
 CRUD
-CRUD 	 | Pelajar 																																			| Tutor
------- | ---------------------------------------------------------------------------- | ---------
-Create | Pelajar dapat membuat akun sebagai pelajar 																	| Tutor dapat membuat akun sebagai tutor
-																																												Tutor dapat membuat kelas tutor
-Read	 | Pelajar dapat melihat semua kelas yang tersedia yang telah dibuat oleh tutor | Tutor dapat melihat semua kelas yang telah dibuat olehnya
-				 Pelajar dapat melihat semua tutor yang terdaftar
-Update | Pelajar dapat mengedit profil nya sendiri 																		| Tutor dapat mengedit profilnya sendiri
-																										 																		Tutor dapat mengedit kelas yang telah dibuatnya
-Delete | 																					 																		| Tutor dapat menghapus kelas yang telah dibuat
+CRUD | Pelajar | Tutor
+------ | ----------------- | ---------
+Create | Pelajar dapat membuat akun sebagai pelajar | * Tutor dapat membuat akun sebagai tutor * Tutor dapat membuat kelas tutor
+Read | Pelajar dapat melihat semua kelas yang tersedia yang telah dibuat oleh tutor | * Tutor dapat melihat semua kelas yang telah dibuat olehnya * Pelajar dapat melihat semua tutor yang terdaftar
+Update | Pelajar dapat mengedit profil nya sendiri | * Tutor dapat mengedit profilnya sendiri * Tutor dapat mengedit kelas yang telah dibuatnya
+Delete | - | Tutor dapat menghapus kelas yang telah dibuat
 
 <h2>Hasil Implementasi</h2>
-Screenshot Sistem
+* Screenshot Sistem
+  ![Screenshot](D:\idk\Download\ss.png)
 
-
-Link Aplikasi
-http://tutory.epizy.com/
+* Link Aplikasi
+  http://tutory.epizy.com/
 
 <h2>Testing</h2>
 * Positive Cases
-	*
+
 * Negative Cases
-	* 
 
 <h2>Saran untuk Pengembangan Selanjutnya</h2>
