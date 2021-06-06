@@ -1,4 +1,20 @@
-<h1>Laporan Akhir</h1>
+<h1>Laporan Akhir Projek</h1>
+
+<h1>Tutory</h1>
+	
+<h1>Kelompok 1</h1>
+
+<h2>Asisten Praktikum</h2>
+
+1. Indah Puspita
+2. Qoriatul Khairunnisa
+
+<h2>Anggota Kelompok</h2>
+
+1. Tio Ramadhan (G64190045) sebagai Backend developer
+2. Alfariz Gilang Septian (G64190066) sebagai Frontend developer
+3. Ismail Rizqy Al Faruq (G64190077) sebagai UI designer
+4. Khristofer (G64190089) sebagai UX researcher
 
 <h2>Deskripsi Singkat:</h2>
 Aplikasi yang ingin kami kembangkan adalah aplikasi tutor berbasis web yang dapat mempertemukan para tutor dan pelajar yang sesuai dengan mudah. Para pengguna, baik tutor maupun pelajar, dapat memilih metode pembelajaran yang dianggap sesuai dengan yang dibutuhkan atau diinginkan masing-masing pihak di dalam data profil. Aplikasi kemudian mencocokan data-data tersebut untuk mencari tutor yang sesuai dengan yang dibutuhkan pengguna, dalam hal ini pelajar. Metode pembayaran juga disediakan bervariasi sehingga pengguna dapat bebas memilih metode pembayaran yang diinginkan sesuai kesepakatan tutor dan pembelajar. Dengan cara ini, baik tutor maupun pelajar dimudahkan proses belajar-mengajar
@@ -29,7 +45,7 @@ Perangkat Lunak
 
   * Operating System : Windows 10
   * Text Editor : Sublime / Visual Studio Code
-  * Framework : Laravel, CodeIgniter
+  * Framework : CodeIgniter
   * Database : MySQL
   * Server : Apache
 
@@ -84,6 +100,7 @@ Delete | _ | Tutor dapat menghapus kelas yang telah dibuat
 
 
 * Link Aplikasi
+
   http://tutory.epizy.com/
 
 <h2>Testing</h2>
